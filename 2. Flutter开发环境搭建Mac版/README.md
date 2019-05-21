@@ -31,7 +31,10 @@
 
 * 安装好Android Studio后执行 `flutter doctor --android-licenses`
 * 然后会提示你选Y/N，不要犹豫，一律选择Y，就可以把证书安装好
-* 到这里windows的开发环境就安装的差不多了
+
+##### 安装 xcode 
+
+* 在 appstore 内进行安装
 
 ### 检查开发环境
 
