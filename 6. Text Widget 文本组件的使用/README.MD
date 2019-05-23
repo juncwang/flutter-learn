@@ -1,7 +1,5 @@
 ### Text Widget 文本组件的使用
 
-* 代码演示 `main-demo01.dart`
-
 ##### TextAlign属性
 
 * TextAlign属性就是文本的对齐方式:

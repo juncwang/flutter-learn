@@ -1,6 +1,31 @@
 ### HelloWorld整体代码
 
-* 代码演示 `main-demo01.dart`
+```dart
+import 'package:flutter/material.dart';
+//主函数（入口函数），下面我会简单说说Dart的函数
+void main() =>runApp(MyApp());
+// 声明MyApp类
+class MyApp extends StatelessWidget{
+  //重写build方法
+  @override
+  Widget build(BuildContext context){
+    //返回一个Material风格的组件
+   return MaterialApp(
+      title:'Welcome to Flutteraa',
+      home:Scaffold(
+        //创建一个Bar，并添加文本
+        appBar:AppBar(
+          title:Text('Welcome to Flutter'),
+        ),
+        //在主体的中间区域，添加一个hello world 的文本
+        body:Center(
+          child:Text('Hello World'),
+        ),
+      ),
+    );
+  }
+}
+```
 * 这段代码写在根目录\lib\main.dart文件中，这就是Flutter主文件
 * 写完后打开终端，运行flutter run,等待一小会，就会看到虚拟机中显示了Hello World的内容
 * 也许你对上面的语法还不够了解，但你不必惊慌，我们会一点点进行说明，那先来看一下Dart中的函数
