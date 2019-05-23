@@ -137,6 +137,9 @@ child:Container(
 * `border:Border.all(width:2.0,color:Colors.red)`
 * 这时候就有了边框显示
 
+* 为容器定义边框圆角
+* `borderRadius: BorderRadius.circular(10.0),`
+
 ##### 完整代码
 ```dart
 import 'package:flutter/material.dart';
@@ -160,7 +163,8 @@ class MyApp extends StatelessWidget{
               gradient:const LinearGradient(
                 colors:[Colors.lightBlue,Colors.greenAccent,Colors.purple]
               ),
-              border:Border.all(width:2.0,color:Colors.red)
+              border:Border.all(width:2.0,color:Colors.red),
+              borderRadius: BorderRadius.circular(10.0),
             ),
           ),
           ),
