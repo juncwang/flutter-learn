@@ -14,3 +14,4 @@
 ### 常用组件
 6. Text Widget 文本组件的使用
 7. Container容器组件的使用
+8. Image图片组件的使用
