@@ -23,7 +23,7 @@
 * 下面出现 flutter 帮助信息证明安装成功
 
 ##### Android Studio的安装
-* 下载Android Studio：直接到官网进行下载就可以了。下载地址：`https://developer.android.com/`
+* 下载Android Studio：直接到官网进行下载就可以了。下载地址：`http://www.android-studio.org/`
 * 安装Android Studio 软件
 * 打开Android Stuido 软件，然后找到Plugin的配置，搜索Flutter插件
 
