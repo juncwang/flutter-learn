@@ -35,6 +35,7 @@
 ##### 安装 xcode 
 
 * 在 appstore 内进行安装
+* 安装完成后运行 `sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer`
 
 ### 检查开发环境
 
